@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ Cloudflex Demo App
 
-## Getting Started
+A responsive and modern product listing interface built with **Next.js (App Router)**, **Tailwind CSS**, and **React**. This app demonstrates clean component structure, responsive design, and basic routing using local data.
 
-First, run the development server:
+
+---
+
+## ✨ Features
+
+- 📦 Responsive product grid layout
+- 📄 Product detail pages with dynamic routing (`/products/[id]`)
+- 🔄 "More items you might like" section with circular indexing
+- 💅 Clean UI styled using Tailwind CSS
+- ⚙️ Modular, reusable components (`Card`, `Layout`, etc.)
+- 💡 Local dummy data (no API integration needed)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── page.js                 # Home page
+│   └── products/
+│       ├── page.jsx             # Products grid
+│       └── [id]/page.jsx        # Product detail
+├── components/
+│   ├── card.jsx                 # Product card component
+│   └── Layout.jsx               # Common layout wrapper
+├── constants/
+│   └── products.jsx              # Dummy product data
+└── styles/
+    └── globals.css              # Tailwind imports
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js ≥ 18
+- npm or yarn
+
+### Installation
+
+```bash
+git clone https://github.com/rahulisbusy/Cloudflex-assignment.git
+cd techzone-products
+npm install
+```
+
+### Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🖼️ Screenshots
 
-## Learn More
+| Home Page                     | Product Listing                | Product Detail Page            |
+|------------------------------|--------------------------------|-------------------------------|
+| ![Home](screenshots/home.png) | ![Grid](screenshots/grid.png)  | ![Detail](screenshots/detail.png) |
 
-To learn more about Next.js, take a look at the following resources:
+> 📸 Add your own screenshots inside a `/screenshots` folder.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌐 Technologies Used
 
-## Deploy on Vercel
+- [Next.js 14+ App Router](https://nextjs.org/docs/app)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React](https://reactjs.org/)
+- [Unsplash / Pixabay](https://pixabay.com/) for free image assets
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📦 Future Enhancements
+
+- ✅ Search or filter by category
+- ✅ Product ratings and reviews
+- ✅ Cart and checkout flow
+- ✅ Backend integration (e.g., with a database or API)
+
+---
+
+## 🧑‍💻 Author
+
+**Pritam Chakraborty**  
+Connect on [LinkedIn](https://www.linkedin.com/in/pritam-chakraborty-0b74b4243/) 
+
+---
+
+## 📄 License
+
+This project is open-source and free to use under the MIT License.
