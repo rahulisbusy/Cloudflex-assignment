@@ -18,7 +18,11 @@ export default function ProductPage({ params }) {
 
  
   const currentIndex = products.findIndex(p => p.id === params.id);
-  const moreItems = Array.from({ length: 4 }, (_, i) => products[(currentIndex + i + 1) % products.length]);
+  const moreItems = [];
+for (let i = 1; i <= 4; i++) {
+  moreItems.push(products[(currentIndex + i) % products.length]);
+}
+
 
   return (
     <Layout>
