@@ -60,15 +60,6 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🖼️ Screenshots
-
-| Home Page                     | Product Listing                | Product Detail Page            |
-|------------------------------|--------------------------------|-------------------------------|
-| ![Home](screenshots/home.png) | ![Grid](screenshots/grid.png)  | ![Detail](screenshots/detail.png) |
-
-> 📸 Add your own screenshots inside a `/screenshots` folder.
-
----
 
 ## 🌐 Technologies Used
 
